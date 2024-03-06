@@ -24,6 +24,10 @@ require (
 	google.golang.org/protobuf v1.30.0
 )
 
+replace github.com/ava-labs/avalanchego v1.10.10 => github.com/vtamara/avalanchego v1.10.11-0.20240306025416-dcf015605776
+
+replace github.com/ava-labs/coreth v0.12.5-rc.6 => github.com/vtamara/coreth v0.12.6-0.20240306025741-04c5f80e4ec0
+
 require (
 	github.com/DataDog/zstd v1.5.2 // indirect
 	github.com/Microsoft/go-winio v0.5.2 // indirect
@@ -138,3 +142,5 @@ require (
 	gopkg.in/yaml.v2 v2.4.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/cockroachdb/pebble v0.0.0-20230209160836-829675f94811 => github.com/vtamara/pebble v0.0.0-20240304195718-33499868d65e
