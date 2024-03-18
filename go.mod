@@ -24,9 +24,9 @@ require (
 	google.golang.org/protobuf v1.30.0
 )
 
-replace github.com/ava-labs/avalanchego v1.10.10 => github.com/vtamara/avalanchego v1.10.11-0.20240306025416-dcf015605776
+replace github.com/ava-labs/avalanchego v1.10.10 => github.com/vtamara/avalanchego v1.10.12-0.20240312230244-d6b0f04f8e06
 
-replace github.com/ava-labs/coreth v0.12.5-rc.6 => github.com/vtamara/coreth v0.12.6-0.20240306025741-04c5f80e4ec0
+replace github.com/ava-labs/coreth v0.12.5-rc.6 => github.com/vtamara/coreth v0.12.6-0.20240318155409-2446b75c3d76
 
 require (
 	github.com/DataDog/zstd v1.5.2 // indirect
@@ -64,6 +64,7 @@ require (
 	github.com/google/btree v1.1.2 // indirect
 	github.com/google/go-cmp v0.5.9 // indirect
 	github.com/google/pprof v0.0.0-20230207041349-798e818bf904 // indirect
+	github.com/google/renameio/v2 v2.0.0 // indirect
 	github.com/google/uuid v1.3.0 // indirect
 	github.com/gorilla/mux v1.8.0 // indirect
 	github.com/gorilla/rpc v1.2.0 // indirect
@@ -144,3 +145,5 @@ require (
 )
 
 replace github.com/cockroachdb/pebble v0.0.0-20230209160836-829675f94811 => github.com/vtamara/pebble v0.0.0-20240304195718-33499868d65e
+
+replace github.com/supranational/blst v0.3.11 => github.com/supranational/blst v0.3.12-0.20240316125559-704c7f6d5f99
